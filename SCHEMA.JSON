@@ -1,0 +1,38 @@
+{
+    "type": "object",
+    "additionalProperties": False,
+    "required": ["type", "message"],
+    "properties": {
+      "type": {"type": "string", "enum": ["Concept", "Questions", "Refusal"]},
+      "message": {
+        "anyOf": [
+          {"type": "string"},
+          {
+            "type": "array",
+            "maxItems": 5, 
+            "items": {
+              "type": "object",
+              "additionalProperties": False,
+              "required": ["Question", "Answers", "CorrectOption", "CorrectAnswer"],
+              "properties": {
+                "Question": {"type": "string"},
+                "Answers": {
+                  "type": "object",
+                  "additionalProperties": False,
+                  "required": ["A", "B", "C", "D"],
+                  "properties": {
+                    "A": { "type": "string" },
+                    "B": { "type": "string" },
+                    "C": { "type": "string" },
+                    "D": { "type": "string" }
+                  }
+                },
+                "CorrectOption": {"type": "string", "enum": ["A", "B", "C", "D"]},
+                "CorrectAnswer": {"type": "string"}
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
