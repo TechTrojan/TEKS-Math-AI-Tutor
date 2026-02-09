@@ -192,6 +192,43 @@ Vector DB creation steps are provided in the Jupyter Notebook.
 - Educational RAG reference
 
 ---
+### 🖥️ Streamlit User Interface (UI)
+
+The TEKS Math AI Tutor UI is a Streamlit-based web interface that allows students, parents, and teachers to interact with the Grade 5 TEKS-aligned AI tutor. The UI acts as a lightweight frontend that sends user queries to the backend RAG system and displays structured, kid-friendly responses.
+
+✨ Key Features
+
+TEKS Grade 5–aligned math questions and explanations
+Practice problem generation with multiple-choice answers
+Clear display of correct answers
+Built-in educational disclaimer
+Stateless interaction (no memory of previous questions)
+Designed for supervised learning use
+
+⚠️ Disclaimer & Limitations
+
+Content is generated based on the TEKS Grade 5 Mathematics curriculum
+Adult supervision is recommended for children
+The AI may hallucinate; some answers or explanations may be incorrect
+The application does not remember past questions
+This tool is a learning aid, not a replacement for teachers or textbooks
+Do not enter personal or sensitive information
+
+▶️ Run the UI Locally
+pip install -r src/requirements.txt
+streamlit run src/app.py
+
+ Open in browser:
+http://localhost:8501
+
+🎯 Intended Use
+
+Grade 5 student practice
+Parent-guided learning
+Teacher content support
+Curriculum-aligned AI demonstrations
+
+---
 
 ## 🚀 Future Scope & Enhancements
 
