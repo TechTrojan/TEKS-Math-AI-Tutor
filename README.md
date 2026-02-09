@@ -48,7 +48,7 @@ Documents → Chunking → Embeddings → Vector DB
 #### 2️⃣ User Interface → API → LLM
 User Query → Retriever → Prompt + Context → LLM → JSON Response
 
-![UI to API Flow](DocImages/ui_apid.png)
+![UI to API Flow](/DocImages/UI_APID.png)
 
 ---
 
