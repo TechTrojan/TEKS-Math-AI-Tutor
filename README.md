@@ -281,6 +281,14 @@ This project is designed with extensibility in mind. The following enhancements 
 
 These enhancements aim to transform the project from a single-grade RAG demo into a **full-scale, curriculum-aware AI tutoring platform** suitable for real-world educational deployment.
 
+## 🙌 Contributors
+
+Thanks to the following people for their valuable contributions to this project:
+
+- **<a href="https://github.com/ShivaniZ321">Shivani Zala</a>** – User Interface design
+- **Leena Zala** – Testing 
+
+
 
 ## ⚠️ Disclaimer
 
