@@ -1,9 +1,28 @@
 # what to test                                  pass/fail 
 
 # asking unrelevant questions                   pass
-# fractions                                     pass
+# adding fractions                              pass
+# subtracting fractions                         pass 
+# dividing fractions                            pass 
+# multiplying fractions                         pass
+# adding decimals                               pass
+# subtracting decimals                          pass
+# multiplying decimals                          pass 
+# dividing decimals                             pass
+# decimal value understanding                   pass
+# perimeter                                     fail 
+# perimete steps                                pass
+# volume                                        pass
+# mean                                          pass
 # division                                      pass
+# order of operations                           pass 
+# patterns                                      pass
+# rounding                                      pass
+# triple digit by single digit multiplication   pass 
+# math but no symbols                           pass
 # asking practice questions                     pass 
 # asking for practice questions                 pass 
 # understanding abreviated words such as "pls"  pass
-# explaining questions step by step             pass
+# explaining questions step by step             fail ( only at times) 
+# memory disclaimer                             pass 
+
